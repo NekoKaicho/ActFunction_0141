@@ -8,3 +8,6 @@ void input(){
     cout << "Masukkan jari-jari lingkaran : ";
     cin >> jarijari;
 }
+float luas_lingkaran (float jarijari, float phi){
+    return phi * jarijari * jarijari;
+}
