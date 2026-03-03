@@ -11,3 +11,7 @@ void input(){
 float luas_lingkaran (float jarijari, float phi){
     return phi * jarijari * jarijari;
 }
+int main() {
+    input();
+    cout << "Luas lingkaran = " << luas_lingkaran(jarijari, phi) << endl;
+}
